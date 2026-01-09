@@ -15,7 +15,7 @@ stow .
 Arch
 
 ```bash
-sudo pacman -S neovim tmux fish starship zoxide fzf stow ripgrep git sed unzip base-devel openssh lazygit python3
+sudo pacman -S neovim tmux fish starship zoxide fzf stow ripgrep git sed unzip base-devel openssh lazygit python3 tree-sitter-cli
 ```
 Others
 
