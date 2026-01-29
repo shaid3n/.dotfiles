@@ -714,12 +714,23 @@ require("lazy").setup({
 			require("yugen").setup({
 				transparent = true,
 				transparent_statusline = true,
+				disable_italics = true,
 				colors = {
-					-- primary = "#f00c49",
+					-- primary = "#a81432",
 				},
 			})
 
 			vim.cmd.colorscheme("yugen")
+		end,
+	},
+
+	{
+		"datsfilipe/vesper.nvim",
+		config = function()
+			require("vesper").setup({
+				transparent = true,
+				italics = {},
+			})
 		end,
 	},
 
