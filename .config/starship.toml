@@ -5,8 +5,8 @@ right_format = ''
 palette = 'fish'
 
 [palettes.fish]
-symbol = '#DE2670'
-vim = '#FFBE89'
+symbol = '#d91432'
+vim = '#717375'
 gray = '#A0A0A0'
 
 [username]

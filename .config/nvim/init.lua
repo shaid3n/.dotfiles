@@ -716,7 +716,8 @@ require("lazy").setup({
 				transparent_statusline = true,
 				disable_italics = true,
 				colors = {
-					-- primary = "#a81432",
+					primary = "#d91432",
+					-- statusline = "#d91432",
 				},
 			})
 
