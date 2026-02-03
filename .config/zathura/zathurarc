@@ -1,10 +1,12 @@
+set guioptions none
+set window-title-basename true
+set font "Arial 10"
+set adjust-open "best"
+set window-width 1280
+set window-height 720
+set recolor true
 set default-bg rgba(20,20,20,1)
 set recolor-lightcolor rgba(0,0,0,0)
 map i recolor
-set recolor true
-set adjust-open "best"
-set guioptions none
 map j feedkeys "<C-Down>"
 map k feedkeys "<C-Up>"
-set window-title-basename true
-set font "Arial 10"

@@ -26,5 +26,5 @@
   "vague.nvim": { "branch": "main", "commit": "30d2239ecf8adab9bc0d07d42e7a07283879dab6" },
   "vesper.nvim": { "branch": "main", "commit": "1717b1ad657c94bec3fc2bdebb0c55452d9fe46d" },
   "which-key.nvim": { "branch": "main", "commit": "3aab2147e74890957785941f0c1ad87d0a44c15a" },
-  "yugen.nvim": { "branch": "main", "commit": "7b2aefe33541123ac2efae28b23fed5a9432d140" }
+  "yugen.nvim": { "branch": "main", "commit": "a346c1c438aa5702ed9e4b0ecd88ef6405018b3c" }
 }
