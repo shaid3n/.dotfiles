@@ -10,10 +10,13 @@ set fish_greeting
 starship init fish | source
 fzf --fish | source
 zoxide init fish --cmd cd | source
+eval (dircolors -c ~/.config/dircolors/.dircolors | string replace "setenv" "set -gx")
 
 alias v=nvim
 alias lg=lazygit
 alias pn=pnpm
+alias ls="eza --color=always --group-directories-first"
+alias ll="eza -lah --git"
 
 set -gx VOLTA_HOME "$HOME/.volta"
 set -gx PATH "$VOLTA_HOME/bin" $PATH
