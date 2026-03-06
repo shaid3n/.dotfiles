@@ -1,0 +1,5 @@
+gui:
+  theme:
+    activeBorderColor:
+      - '#d91432'
+      - bold
