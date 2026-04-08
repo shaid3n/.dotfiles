@@ -13,6 +13,7 @@ zoxide init fish --cmd cd | source
 eval (dircolors -c ~/.config/dircolors/.dircolors | string replace "setenv" "set -gx")
 
 alias v=nvim
+alias vconf="nvim ~/.dotfiles/.config/nvim"
 alias lg=lazygit
 alias pn=pnpm
 alias ls="eza --color=always --group-directories-first"
