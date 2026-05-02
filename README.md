@@ -20,7 +20,7 @@ sudo pacman -S neovim tmux fish starship zoxide fzf stow eza ripgrep git sed unz
 Others
 
 ``
-fnm yay sesh uv bun cuda opencl-mesa
+pnpm yay sesh uv bun
 ``
 ## Font
 [Maple Font](https://github.com/subframe7536/maple-font)
