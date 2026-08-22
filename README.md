@@ -24,6 +24,7 @@ pnpm yay sesh uv bun
 ``
 ## Font
 [Maple Font](https://github.com/subframe7536/maple-font)
+[Departure Mono](https://github.com/rektdeckard/departure-mono)
 
 ## WT Theme
 ```json
