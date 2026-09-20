@@ -8,6 +8,8 @@ neovim + tmux workflow
 Arch
 ```bash
 sudo pacman -S mise neovim tmux fish starship zoxide fzf stow eza ripgrep git sed unzip base-devel openssh lazygit tree-sitter-cli
+
+chsh -s /usr/bin/fish
 ```
 
 [Paru](https://github.com/morganamilo/paru)

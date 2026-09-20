@@ -1,1 +1,15 @@
+# System
+.DS_Store
+*.swp
+*~
+.ssh/id_*
+.ssh/known_hosts
+.env
+.env.local
+
+# tmux
+.tmux/
 .config/tmux/plugins/
+
+# lazygit
+.config/lazygit/state.yml
