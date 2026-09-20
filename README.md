@@ -16,15 +16,14 @@ mise install
 ## Packages
 
 Arch
-
 ```bash
 sudo pacman -S mise neovim tmux fish starship zoxide fzf stow eza ripgrep git sed unzip base-devel openssh lazygit tree-sitter-cli
 ```
 
 [Paru](https://github.com/morganamilo/paru)
-``
+```bash
 paru -S sesh
-``
+```
 ## Font
 - [Maple Font](https://github.com/subframe7536/maple-font)
 - [Departure Mono](https://github.com/rektdeckard/departure-mono)
