@@ -7,6 +7,7 @@ vim.g.netrw_banner = 0
 -- Settings
 vim.o.number = true
 vim.o.relativenumber = true
+vim.o.expandtab = true
 vim.o.mouse = "a"
 vim.o.showmode = true
 vim.o.breakindent = true
@@ -374,9 +375,7 @@ require("lazy").setup({
 				vtsls = {},
 				html = {},
 				cssls = {},
-				prettierd = {},
 				ruff = {},
-				stylua = {},
 				lua_ls = {
 					on_init = function(client)
 						if client.workspace_folders then
@@ -413,7 +412,8 @@ require("lazy").setup({
 
 			local ensure_installed = vim.tbl_keys(servers or {})
 			vim.list_extend(ensure_installed, {
-				-- You can add other tools here that you want Mason to install
+				"prettierd",
+				"stylua",
 			})
 
 			require("mason-tool-installer").setup({ ensure_installed = ensure_installed })
@@ -581,6 +581,36 @@ require("lazy").setup({
 		keys = {
 			{ "<leader>lg", "<cmd>LazyGit<cr>", desc = "LazyGit" },
 		},
+	},
+	{
+		"nvim-mini/mini.ai",
+		event = "VeryLazy",
+		config = function()
+			require("mini.ai").setup({
+				mappings = {
+					around_next = "aa",
+					inside_next = "ii",
+				},
+				n_lines = 500,
+			})
+		end,
+	},
+	{
+		"nvim-mini/mini.surround",
+		event = "VeryLazy",
+		config = function()
+			require("mini.surround").setup({
+				mappings = {
+					add = "sa",
+					delete = "sd",
+					find = "sf",
+					find_left = "sF",
+					highlight = "sh",
+					replace = "sr",
+					update_n_lines = "sn",
+				},
+			})
+		end,
 	},
 	{
 		"brenoprata10/nvim-highlight-colors",
