@@ -1,5 +1,39 @@
 gui:
+  screenMode: 'normal'
+  scrollHeight: 5
+  sidePanelWidth: 0.3
+  border: 'rounded'
+  showFileTree: true
+  showListFooter: true
+  showCommandLog: false
+  nerdFontsVersion: '3'
+  language: 'en'
   theme:
     activeBorderColor:
       - '#d91432'
       - bold
+    inactiveBorderColor:
+      - '#5C5C5C' # dim_gray de starship
+    searchingActiveBorderColor:
+      - '#d91432'
+      - bold
+    optionsTextColor:
+      - '#A0A0A0' # gray de starship
+    selectedLineBgColor:
+      - '#323232' # un gris oscuro para selección
+    selectedRangeBgColor:
+      - '#474656' # selectionBackground de tu tema WT
+    cherryPickedCommitBgColor:
+      - '#45475a'
+    cherryPickedCommitFgColor:
+      - '#d91432'
+    unstagedChangesColor:
+      - '#d91432' # rojo para archivos sin stage
+    defaultFgColor:
+      - '#FFFFFF'
+os:
+  edit: 'nvim -- {{filename}}'
+  editAtLine: 'nvim +{{line}} -- {{filename}}'
+  editAtLineAndWait: 'nvim +{{line}} -- {{filename}}'
+  editInTerminal: true
+  promptToReturnFromSubprocess: false

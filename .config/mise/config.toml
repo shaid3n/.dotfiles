@@ -4,8 +4,6 @@ pnpm = "latest"
 bun = "latest"
 python = "3.13"
 uv = "latest"
-rust = "stable"
-go = "latest"
 
 [settings]
 npm.package_manager = "pnpm"

@@ -18,5 +18,6 @@ alias lg=lazygit
 alias pn=pnpm
 alias ls="eza --color=auto --group-directories-first"
 alias ll="eza -lah --git"
+alias la="eza -a"
 
 ln -sf /mnt/wslg/runtime-dir/wayland-0 /run/user/1000/wayland-0 2>/dev/null

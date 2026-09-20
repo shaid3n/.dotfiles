@@ -23,10 +23,11 @@ format = '$all_status'
 
 [character]
 success_symbol = '[\$](symbol)'
-error_symbol = '[\$](symbol)'
+error_symbol = '[\$](gray)'
 vimcmd_symbol = '[\$](vim)'
 
 [directory]
 style = 'bold white'
-truncation_length = 1
+truncation_length = 3
+truncate_to_repo = true
 format = '[$path]($style)[$read_only]($read_only_style)'
