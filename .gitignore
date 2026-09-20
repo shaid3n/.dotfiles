@@ -13,3 +13,6 @@
 
 # lazygit
 .config/lazygit/state.yml
+
+# Fish runtime state
+.config/fish/fish_variables
