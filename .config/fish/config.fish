@@ -10,6 +10,7 @@ set fish_greeting
 starship init fish | source
 fzf --fish | source
 zoxide init fish --cmd cd | source
+mise activate fish | source
 eval (dircolors -c ~/.config/dircolors/.dircolors | string replace "setenv" "set -gx")
 
 alias v=nvim

@@ -6,8 +6,11 @@ neovim + tmux workflow
 ## Install
 ```bash
 git clone https://github.com/GatinSDK/.dotfiles.git
-cd .dotfiles
 stow .
+tmux
+prefix + I
+mise trust
+mise install
 ```
 
 ## Packages
@@ -15,16 +18,16 @@ stow .
 Arch
 
 ```bash
-sudo pacman -S neovim tmux fish starship zoxide fzf stow eza ripgrep git sed unzip base-devel openssh lazygit python3 tree-sitter-cli
+sudo pacman -S mise neovim tmux fish starship zoxide fzf stow eza ripgrep git sed unzip base-devel openssh lazygit tree-sitter-cli
 ```
-Others
 
+[Paru](https://github.com/morganamilo/paru)
 ``
-pnpm yay sesh uv bun
+paru -S sesh
 ``
 ## Font
-[Maple Font](https://github.com/subframe7536/maple-font)
-[Departure Mono](https://github.com/rektdeckard/departure-mono)
+- [Maple Font](https://github.com/subframe7536/maple-font)
+- [Departure Mono](https://github.com/rektdeckard/departure-mono)
 
 ## WT Theme
 ```json
@@ -74,6 +77,4 @@ pnpm yay sesh uv bun
   "white": "#E6E6E6",
   "yellow": "#FEA44C"
 }
-
-
 ```

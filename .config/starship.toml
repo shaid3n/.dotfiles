@@ -1,5 +1,5 @@
 format = '''
-[$username@$hostname](gray) [$directory](white)[$git_status](gray) [$character](symbol)$jobs'''
+[$username](gray)[@](dim_gray)[$hostname](gray) [$directory](white)[$git_status](gray) [$character](symbol)$jobs'''
 right_format = ''
 
 palette = 'fish'
@@ -8,6 +8,7 @@ palette = 'fish'
 symbol = '#d91432'
 vim = '#717375'
 gray = '#A0A0A0'
+dim_gray = '#5C5C5C'
 
 [username]
 show_always = true
