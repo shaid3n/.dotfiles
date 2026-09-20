@@ -3,16 +3,6 @@ neovim + tmux workflow
 
 ![Screenshot1](https://i.imgur.com/LJ7ITKh.png) 
 
-## Install
-```bash
-git clone https://github.com/GatinSDK/.dotfiles.git
-stow .
-tmux
-prefix + I
-mise trust
-mise install
-```
-
 ## Packages
 
 Arch
@@ -24,11 +14,25 @@ sudo pacman -S mise neovim tmux fish starship zoxide fzf stow eza ripgrep git se
 ```bash
 paru -S sesh
 ```
-## Font
+
+## Install
+```bash
+git clone https://github.com/GatinSDK/.dotfiles.git
+cd .dotfiles
+stow .
+mise trust ~/.config/mise/config.toml
+mise install
+tmux
+```
+> Press `prefix + I` to install plugins
+
+
+## Fonts
 - [Maple Font](https://github.com/subframe7536/maple-font)
 - [Departure Mono](https://github.com/rektdeckard/departure-mono)
 
 ## WT Theme
+### Spectral Glow
 ```json
 {
   "background": "#000000",
@@ -53,6 +57,10 @@ paru -S sesh
   "white": "#FFFFFF",
   "yellow": "#F5C505"
 }
+```
+
+### Kali
+```json
 {
   "background": "#1C1C1C",
   "black": "#1F2229",
