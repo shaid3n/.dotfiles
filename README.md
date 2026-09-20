@@ -17,7 +17,7 @@ paru -S sesh
 
 ## Install
 ```bash
-git clone https://github.com/GatinSDK/.dotfiles.git
+git clone git@github.com:shaid3n/.dotfiles.git
 cd .dotfiles
 stow .
 mise trust ~/.config/mise/config.toml
